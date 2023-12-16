@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.book{
+    background-color: red;
+    padding: 10px;
+}
+.con{
+    padding: 10px;
+}
+.boo-con{
+    width:25%;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+    color: azure;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+
+    
+}
+.boo-con h2{
+    color:orangered;
+
+}
+
+.boo-con button{
+    background-color: maroon;
+    color:black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.add{
+    background-color: brown;
+    color: black;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+}
+
+.pop_over{
+    background-color:black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display:none;
+}
+
+.pop_class{
+    
+    background-color: #FD6569;
+    width: 50%;
+    padding: 40px;
+    border-radius: 20px;
+    position:absolute;
+    top: 20%;
+    left: 20%;
+    
+    z-index: 2;
+    align-content: center;
+    display: none;
+}
+
+.pop_class input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.pop_class textarea{
+    background: transparent;
+    
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+
+.pop_class input::placeholder{
+    color: black;
+}
+.pop_class textarea::placeholder{
+    color: black;
+}
+
+.pop_class button{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    margin: 5px;
+}
+.pop_class input:focus{
+    outline: none;
+}
+
+.pop_class textarea:focus{
+    outline: none;
+}
